@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Century Gothic', sans-serif;
+}
+
+.team{
+  background-color:lightsteelblue;
+}
+
+.link-modulos{
+	text-decoration: none;
+}
+
+.link-modulos-card{
+	color: #c3c3c3;
+}
+
+.link-modulos-card{
+	color: #c3c3c3;
+}
+
+.link-modulos-card:hover{
+	color: #FFFFFF;
+}
+
+.navbar{
+  height: 95px;
+}
+.section-padding {
+	padding: 40px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: initial;
+	top: 40%;
+	z-index: 2;
+}
+
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.493);
+	z-index: 1;
+}
+
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: rgb(255, 255, 255);
+}
+
+.sharepoint .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.items .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+
+.body-pnt{
+    background: #ced4da;
+}
+
+.container-punto{
+    width: 100%;
+    height: 100%;
+	padding-top: 100px;
+    display: flex;
+
+}
+
+.izquierda{
+    width: 45%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.izquierda-arriba{
+    flex: 1;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+	grid-gap: 5px;
+	padding: 10px;
+}
+
+.izquierda-abajo{
+    flex: 1;
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.borrar img{
+    width: 50%;
+    height: 100%;
+}
+
+#pagar{
+    grid-column: span 3;
+}
+
+.derecha{
+	width: 65%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.derecha-arriba{
+	height: 90px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+	grid-gap: 5px;
+	padding: 10px;
+}
+
+.derecha-abajo{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+	grid-gap: 5px;
+	padding: 10px;
+}
+
+#payWarning {display: none;}
+
+.tabla-carrito {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-carrito th {
+	background-color: #f2f2f2;
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de datos */
+.tabla-carrito td {
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+/* Estilo alternativo para filas */
+.tabla-carrito tbody tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.container-inventario{
+	padding: 30px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.buscador{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.buscador input{
+	width: 100%;
+}
+
+.tabla-inventario {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.table button{
+	width: 100%;
+}
+
+.tabla-inventario button{
+	width: 100%;
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-inventario th {
+	background-color: #f2f2f2;
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de datos */
+.tabla-inventario td {
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+
+/* Estilo alternativo para filas */
+.tabla-inventario tbody tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.filtro{
+	display: none;
+}
+
+.top{
+	top: 0;
+	height: 100vh;
+	background-color: rgba(0,0,0,.8);
+	display: grid;
+	place-items: center;
+	transition: .4s;
+}
+
+.close{
+	top: 5em;
+	left: 70%;
+}
+
+.translate{
+	transform: translateY(-100%);
+}
